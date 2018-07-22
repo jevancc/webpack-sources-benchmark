@@ -1,0 +1,6 @@
+# Ignore all paths.
+**/*.*
+
+# Enable prettier for the following paths.
+!benchmark/*.js
+!scripts/**/*.js

@@ -1,0 +1,10 @@
+/node_modules
+/benchmark/js
+/benchmark/fixtures
+/log
+.DS_Store
+*.log
+.idea
+.vscode
+.eslintcache
+package-lock.json
