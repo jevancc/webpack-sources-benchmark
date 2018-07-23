@@ -13,7 +13,7 @@ let args = [];
         test[1].forEach(size => {
             args.push([
                 "-s",
-                50,
+                10,
                 "-m",
                 mode,
                 `--${test[0]}`,

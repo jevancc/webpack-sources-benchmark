@@ -4,6 +4,7 @@
   "description": "",
   "main": "benchmark.js",
   "scripts": {
+    "benchmark": "node ./benchmark/benchmarkFixtures",
     "benchmark:batch": "node ./scripts/batch",
     "pretty": "prettier --write \"benchmark/*.js\" \"scripts/**/*.js\""
   },
