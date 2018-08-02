@@ -2264,9 +2264,9 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-wasm-webpack-sources@^0.2.4:
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/wasm-webpack-sources/-/wasm-webpack-sources-0.2.4.tgz#aa8eccfc1a22adde0f1af96f5f971effc967bd8e"
+wasm-webpack-sources@^0.2.8:
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/wasm-webpack-sources/-/wasm-webpack-sources-0.2.8.tgz#fe01ff5d4737357177af5540700a93d67cf4c8b2"
   dependencies:
     source-list-map "^2.0.0"
     source-map "^0.6.1"
