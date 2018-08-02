@@ -4,23 +4,24 @@ const cp = require("child_process");
 let args = [];
 ["js", "wasm"].forEach(mode => {
     [
-        ["nb", [1000]],
-        ["edb", [100]],
-        ["sb", [100]],
-        ["csb", [100]],
-        ["bwc", [1000]]
+        ["nb", [1000], 10],
+        ["edb", [100], 20],
+        ["sb", [100], 10],
+        ["csb", [100], 20],
+        ["bwc", [1000], 20]
     ].forEach(test => {
         test[1].forEach(size => {
-            args.push([
+            let arg = [
                 "-s",
-                10,
+                test[2] || 10,
                 "-m",
                 mode,
                 `--${test[0]}`,
                 size,
                 "--note",
                 `_${mode}_${test[0]}_${size}_`
-            ]);
+            ];
+            args.push(arg);
         });
     });
 });
