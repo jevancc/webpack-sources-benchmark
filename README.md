@@ -6,7 +6,7 @@
 * MEM: 7976.9MB
 * Node version: 10.8.0
 * Webpack version: 4.16.4
-* wasm-webpack-soruces version: 0.2.8
+* wasm-webpack-soruces version: 0.2.10
 * webpack-sources version: 1.1.0
 
 ![benchmark](https://github.com/jevancc/webpack-sources-benchmark/blob/master/images/benchmark.png)
